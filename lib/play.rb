@@ -37,6 +37,7 @@ end
 
 # Define your play method below
 def play(board)
+<<<<<<< HEAD
   until board_full?(board)
     turn(board)
   end
@@ -52,3 +53,9 @@ def board_full?(board)
   end
   return true
 end
+=======
+  loop do
+    turn(board)
+  end
+end
+>>>>>>> 4d92465f8212647740faefcfbff6348e9091ab7c
